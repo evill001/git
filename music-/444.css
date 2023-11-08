@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #333;
+    padding: 20px;
+    color: #f9f9f9;
+}
+.nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+.nav li {
+    padding: 0 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: #ccc;
+}
+.artist-info {
+    padding: 20px;
+}
+.album-list {
+    padding: 20px;
+}
+
+.subscribe {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+}
+.email-input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.subscribe-button {
+    width: 70%;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.banner {
+    background-image: url('444.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+}
+
+.image-container {
+    text-align: center;
+    padding: 20px;
+}
+.image-container img {
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.image-container h2 {
+    padding: 20px 0;
+}
+.image-caption {
+    text-align: center;
+    padding: 20px 0;
+}
+.album-container {
+    text-align: center;
+}
+.album-container h2 {
+    padding: 20px 0;
+}
+.album {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 10px;
+}
+.album img {
+    width: 70%;
+    border-radius: 5px;
+}
